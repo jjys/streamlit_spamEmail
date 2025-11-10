@@ -5,6 +5,7 @@ pandas==2.1.3
 
 # NLP
 nltk==3.8.1
+jieba==0.42.1  # 中文分詞
 
 # Web Interface
 streamlit==1.29.0
