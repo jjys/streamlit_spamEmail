@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model files
+*.pkl
+*.joblib
+models/*.pkl
+models/*.joblib
+
+# Data
+*.csv
+!data/sms_spam_no_header.csv
+
+# Logs
+*.log
+logs/
+
+# Streamlit
+.streamlit/secrets.toml
